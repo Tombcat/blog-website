@@ -1,0 +1,16 @@
+.events{
+  background-color: antiquewhite;
+  padding: 10px 20px;
+  width: 300px;
+  margin: 10px;
+  h5{
+    margin: 0;
+  }
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

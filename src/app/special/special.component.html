@@ -1,0 +1,10 @@
+<h1>Special Events</h1>
+<div class="list">
+  <div *ngFor="let event of specialEvents" class="events">
+    <h5>{{event.name}}</h5>
+    <p>{{event.description}}</p>
+    <div>
+      {{event.date | date:'shortDate'}}
+    </div>
+  </div>
+</div>
