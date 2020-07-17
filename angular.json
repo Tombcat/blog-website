@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -119,6 +119,15 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularAuth"
+    }
+  },
+  "defaultProject": "AngularAuth",
+  "cli": {
+    "analytics": "9c1f959f-dedf-4c98-8a21-fd515d0703ea"
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
